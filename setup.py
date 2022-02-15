@@ -27,17 +27,17 @@ REQUIRES = [
 setup(
     name=NAME,
     version=VERSION,
-    description="Open-Needs Server",
+    description="Open-Needs SDK",
     author="Open-Needs community",
-    author_email="team@openapitools.org",
-    url="",
-    keywords=["OpenAPI", "OpenAPI-Generator", "Open-Needs Server"],
+    author_email="daniel@useblocks.com",
+    url="https://open-needs.org",
+    keywords=["OpenAPI", "OpenAPI-Generator", "Open-Needs SDK"],
     python_requires=">=3.6",
     install_requires=REQUIRES,
     packages=find_packages(exclude=["test", "tests"]),
     include_package_data=True,
     license="MIT License",
     long_description="""\
-    REST API Server of Open-Needs  # noqa: E501
+    REST API client of Open-Needs Server  # noqa: E501
     """
 )
